@@ -16,12 +16,32 @@
     border: 1px solid purple;
     transition: all 0.5s ease-in-out;
     font-weight: 500;
+    background-color: rgb(219, 219, 255);
 }
 
 .base_css > *:hover {
     background-color: white;
     color: darkgreen;
 }
+
+div:first-child {
+    color: red;
+    height: 40px;
+}
+
+div:nth-child(3) {
+    color: yellow;
+    background: black;
+}
+
+
+
+
+
+
+
+
+
 
 
 
