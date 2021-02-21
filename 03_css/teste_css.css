@@ -1,11 +1,26 @@
 * {
     margin: 0;
+    font-size: 20px;
 }
 
 .base_css {
     background-color: lightgreen;
     height: auto;
     width: 500px;
+    padding: 10px 5px;
+}
+
+.base_css > * {
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid purple;
+    transition: all 0.5s ease-in-out;
+    font-weight: 500;
+}
+
+.base_css > *:hover {
+    background-color: white;
+    color: darkgreen;
 }
 
 
