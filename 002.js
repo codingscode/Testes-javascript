@@ -43,7 +43,17 @@ console.log('area3: ', area3.area)
 console.log('area4: ', area4)
 console.log('area4: ', area4.area)
 
+console.log('---------------------------------------------')
 
+
+
+
+
+
+
+
+
+console.log('---------------------------------------------')
 
 
 
